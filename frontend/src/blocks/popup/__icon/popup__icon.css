@@ -1,0 +1,13 @@
+.popup__icon {
+    display: flex;
+    margin-top: 61px;
+    margin-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 918px) {
+    .popup__icon {
+        margin-top: 50px;
+    }
+}

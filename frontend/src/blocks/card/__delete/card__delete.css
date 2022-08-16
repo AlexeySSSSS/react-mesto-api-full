@@ -1,0 +1,15 @@
+.card__delete {
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    border: none;
+    left: 244px;
+    top: 20px;
+    background: url(../../../images/Vector3.png);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.card__delete:hover {
+    opacity: 0.6;
+}

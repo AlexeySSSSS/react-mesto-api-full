@@ -1,0 +1,30 @@
+.header__exit {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-height: 22px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    transition: 0.8s ease;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.header__exit:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 918px) {
+    .header__exit {
+        margin-right: 29px;
+
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header__exit {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

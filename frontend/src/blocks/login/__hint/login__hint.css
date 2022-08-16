@@ -1,0 +1,25 @@
+.login__hint {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    transition: 0.8s ease;
+    text-decoration: none;
+    max-width: 358px;
+}
+
+.login__hint:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 918px) {
+    .login__hint {
+        margin-top: 20px;
+        max-width: 260px;
+    }
+}

@@ -1,0 +1,8 @@
+.card__grid-block {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-left: 21px;
+    margin-right: 15px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}

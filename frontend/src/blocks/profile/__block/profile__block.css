@@ -1,0 +1,10 @@
+.profile__block {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+@media screen and (max-width: 918px) {
+    .profile__block {
+        margin-left: 46px;
+    }
+}

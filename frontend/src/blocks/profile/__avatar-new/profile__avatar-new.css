@@ -1,0 +1,17 @@
+.profile__avatar-new {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: initial;
+    outline: 1px solid black;
+}
+
+.profile__avatar-new:hover {
+    transition: background-color 0.1s linear;
+    background: rgba(0, 0, 0, 0.8) url(../../../images/Vector-avatar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
